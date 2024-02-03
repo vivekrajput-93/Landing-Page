@@ -1,0 +1,8 @@
+.nav-link-container {
+    background-color: #F7F7FD;
+    border-radius: 20px;
+}
+
+.nav-link-container li:hover {
+    color: blue !important;
+}
