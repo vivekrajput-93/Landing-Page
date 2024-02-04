@@ -1,0 +1,15 @@
+.footer-top-container li {
+    font-size: .9rem;
+    color: #666;
+    cursor: pointer;
+}
+
+.footer-top-container li:hover {
+    color: rgba(0, 132, 255, 0.938);
+}
+
+
+.footer-top-container li:first-child {
+        font-size: 1.2rem;
+        color: #000;
+}

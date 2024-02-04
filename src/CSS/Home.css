@@ -1,0 +1,80 @@
+
+  
+  .container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .text {
+    position: absolute;
+    left: 8rem;
+    font-size: 1.2rem;
+    width: 900px;
+    z-index: 2;
+    background: linear-gradient(to right, #fff 50%, transparent 100%);
+  }
+
+  .text div {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .img-container {
+    position: relative;
+    width: 100%; 
+    height: 80vh;
+    margin-left: 350px;
+    border-radius: 15px; 
+    backdrop-filter: blur(10px);
+  }
+
+  .text-tech {
+    text-transform: uppercase;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #F3BC4C;
+    font-size: 20px;
+  }
+  
+  .hero-image {
+    /* object-fit: contain; */
+    width: 80%;
+    height: 100%;
+    z-index: 55;
+    border-top-left-radius: 20px;
+
+  }
+
+.icon-container {
+  mix-blend-mode: multiply;
+
+}
+
+.icon-base-container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+}
+
+.card-service {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  @apply  w-72 h-56 pl-4 pt-6 rounded-3xl
+}
+
+.one, .two {
+  @apply mix-blend-multiply
+}
+
+.card-para {
+  @apply text-sm mt-3 text-gray-700 pr-2
+}
+
+.card-heading {
+  @apply mt-4
+}
